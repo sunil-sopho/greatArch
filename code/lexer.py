@@ -212,5 +212,5 @@ def lex(characters, token_exprs):
             pos = match.end(0)
     return tokens
 
-def nokia_lex(characters):
+def lexer(characters):
     return lexer.lex(characters, token_exprs)
