@@ -13,7 +13,7 @@ from datetime import datetime,timedelta
 import os
 import ctypes
 from ruletester import ruletester
-from lexer import lexer
+from lexer import lexerGrt
 # import pyautogui
 
 modes = {"gui":1,"web":2}
@@ -25,6 +25,7 @@ version = "0.0.1" # version of system builds
 
 def autologin():
 
+	return None
 
 
 def setWeb():
@@ -89,7 +90,7 @@ if __name__ == '__main__':
 	try:
 		file = open(filename, "r")
 		characters = file.read()
-		characters += '\n' # adding endline character at end
+		# characters += '\n' # adding endline character at end
 
 		file.close()
 	except IOError:
@@ -105,9 +106,7 @@ if __name__ == '__main__':
 		sys.stderr.write("Error found in rule")
 		sys.exit(-1)
 
-	tokens = lexer(characters)
+	steps = lexerGrt(characters)
+	print(steps)
 
-	ip = "www.google.com"
-	steps = [[2,"get",ip],[1,"open","sublime"]]
-
-	automate(steps)
+	# automate(steps)
