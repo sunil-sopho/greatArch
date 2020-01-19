@@ -2,6 +2,7 @@
 The project module involves developing a meta language to parse, execute and automate the running of any software. We use regex to parse the language
 and break it into a set of executable instruction that are mostly use to run any software application such as web crawling, opening a browser,
 sending request to other apps, opening an application, editing a file, saving a file and many more.
+```
 
 More importantly there are few major tasks we have to handle
 -- A good regex parser to convert high level instructions to low level sub routines
@@ -12,11 +13,17 @@ More importantly there are few major tasks we have to handle
 ----- Saving/editing a file
 ----- Editing a text field etc.
 
+```
+
+
 ## Softwares to be used and requirements
+
+```
 -- Python>=3.6
 -- AutoHotKey
 -- AHK module for python
 -- Some basic python libraries such as numpy, tesseract
+```
 
 ## Task Done
 - [x] Lexure for regex done
