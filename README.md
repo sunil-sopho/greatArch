@@ -43,10 +43,10 @@ More importantly there are few major tasks we have to handle
 -- Subroutines
 	|- can execute different specialized tasks
 	|- try different ways to solve those task. For example find image using AHK, then OCR, then something else
-  |- generate error file to be able to show traceback
+  	|- generate error file to be able to show traceback
 -- Subroutine communication
 	|- calling one sub-routine from another
-  |- sending data between two sub-routines
+  	|- sending data between two sub-routines
 
 
 
