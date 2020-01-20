@@ -25,8 +25,17 @@ More importantly there are few major tasks we have to handle
 -- Some basic python libraries such as numpy, tesseract
 ```
 
+## To install the requirements
+
+```
+-- git clone this repo
+-- make sure you have pip installed
+-- run ' pip install -r requirements.txt '
+
+```
+
 ## Task Done
-- [x] Lexure for regex done
+- [x] Lexer for regex done
 - [x] AHK module for python found
 - [ ] Permission issues is a problem
 - [ ] FindText has to be made workable for all fonts and screens
