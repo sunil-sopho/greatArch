@@ -52,4 +52,4 @@ More importantly there are few major tasks we have to handle
 
 ```
 
-![Screenshot from 2019-10-27 13-52-25](https://user-images.githubusercontent.com/45782936/72714115-2e86b480-3b94-11ea-9621-743b52d21b94.png)
+![pipeline](https://user-images.githubusercontent.com/45782936/72714327-8d4c2e00-3b94-11ea-8b44-69f8e359a9ce.png)
